@@ -13,6 +13,9 @@ class MY_Controller extends CI_Controller {
     {
         parent::__construct();
 
+//        if ($this->session->userdata('logged_in') != TRUE) {
+//            redirect('admin/login');
+//        }
         date_default_timezone_set('Europe/Istanbul');
 
     }
