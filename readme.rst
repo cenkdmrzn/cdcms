@@ -2,4 +2,4 @@
 CMSCD
 ###################
 
-CMSCD bir php Cms calismasidir.
+CMSCD bir php CMS calismasidir.

@@ -43,20 +43,20 @@ class Gallery extends MY_Controller {
     public  function add()
     {
         $this->tmpFile = "add";
-        $param['page_title'] = 'Add Gallery';
+        $param['page_title'] = 'Add Image';
         $this->render($param);
     }
 
     public function edit($id)
     {
         $this->tmpFile = "edit";
-        $param['page_title'] = 'Edit Gallery';
+        $param['page_title'] = 'Edit Image';
         $this->render($param);
     }
 
     public  function delete($id)
     {
-        $param['page_title'] = 'Delete Gallery';
+        $param['page_title'] = 'Delete Image';
         $this->render($param);
     }
 

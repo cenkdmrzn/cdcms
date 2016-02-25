@@ -414,8 +414,8 @@
                     <i class="fa fa-angle-left pull-right"></i>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="<?php echo base_url('admin/gallery/add');?>"><i class="fa fa-square"></i> Add Gallery</a></li>
-                    <li><a href="<?php echo base_url('admin/gallery/');?>"><i class="fa fa-square"></i> Edit / Gallery list</a></li>
+                    <li><a href="<?php echo base_url('admin/gallery/add');?>"><i class="fa fa-square"></i> Add Image</a></li>
+                    <li><a href="<?php echo base_url('admin/gallery/');?>"><i class="fa fa-square"></i> Edit / Image list</a></li>
                 </ul>
             </li>
             <li class="treeview">
