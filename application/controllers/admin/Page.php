@@ -9,11 +9,14 @@ class Page extends MY_Controller {
 
         $this->subLayoutFolder = "admin";
         $this->moduleFolder = 'page';
+        $this->load->model('Page_model','page');
 
     }
 
     public function index()
     {
+        $this->load->library('form_validation');
+
         $this->tmpFile = "list";
         $param['page_title'] = 'Page List';
 
