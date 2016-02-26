@@ -1,7 +1,15 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: cenkdemirezen
- * Date: 25/02/16
- * Time: 20:19
- */ 
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class News_model extends CI_Model
+{
+    public function __construct()
+    {
+        parent::__construct();
+
+    }
+
+
+
+}

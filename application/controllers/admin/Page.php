@@ -15,6 +15,7 @@ class Page extends MY_Controller {
 
     public function index()
     {
+
         $this->load->library('form_validation');
 
         $this->tmpFile = "list";
